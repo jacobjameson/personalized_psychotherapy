@@ -1,0 +1,10 @@
+======================================================================
+PERSONALIZATION GAINS BY BASELINE PROBABILITY QUARTILE
+======================================================================
+# A tibble: 4 × 8
+  prob_quartile     n mean_baseline mean_gain median_gain pct_benefit_1pp pct_benefit_5pp max_gain
+  <fct>         <int>         <dbl>     <dbl>       <dbl>           <dbl>           <dbl>    <dbl>
+1 Q1 (Lowest)     300         0.470      4.32       3.75             75.3           31.7     28.5 
+2 Q2              299         0.695      3.73       3.11             79.3           28.1     20.7 
+3 Q3              299         0.792      2.44       2.19             72.6           10.4     12.9 
+4 Q4 (Highest)    300         0.875      1.40       1.000            50              3.67     9.13

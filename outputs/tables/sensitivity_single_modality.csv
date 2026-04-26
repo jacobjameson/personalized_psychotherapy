@@ -1,0 +1,7 @@
+"Metric","Full_Sample","Single_Mod"
+"N (test set)",1198,508
+"Observed improvement rate",78.7,77.8
+"AUROC",0.666,0.684
+"Mean gain (pp)",3,2.7
+"% benefiting (>1pp)",69.3,67.1
+"NNT",34,37

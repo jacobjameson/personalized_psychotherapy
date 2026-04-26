@@ -1,0 +1,8 @@
+"Metric","Top_15","Top_30"
+"Coverage of validation episodes","74.2%","88.4%"
+"Mean personalization gain","3 pp","3.1 pp"
+"Median personalization gain","2.2 pp","2.2 pp"
+"% with gain > 1pp","69.3%","69.7%"
+"% with gain > 5pp","18.4%","19.8%"
+"NNT","34","33"
+"Maximum gain","28.5 pp","28.5 pp"
