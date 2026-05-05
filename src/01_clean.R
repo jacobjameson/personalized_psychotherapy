@@ -19,6 +19,7 @@
 # 1. SUICIDE ASSESSMENTS AT INTAKE (MH SA)
 # ============================================================================
 
+
 mh_sa <- read_excel("~/Sue Goldie Dropbox/Jacob Jameson/DBH data/MH SA.xlsx")
 mh_sa <- clean_names(mh_sa)
 

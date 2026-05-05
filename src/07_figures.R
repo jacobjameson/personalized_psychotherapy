@@ -182,11 +182,16 @@ panel_a <- ggplot(roc_long, aes(x = fpr, y = tpr, color = model)) +
     axis.text          = element_text(size = 8, color = "black"),
     panel.grid.minor   = element_blank(),
     panel.grid.major   = element_line(color = "#F0F0F0", linewidth = 0.2),
-    legend.position    = "bottom",
     legend.text        = element_text(size = 9),
     legend.key.width   = unit(1.2, "cm"),
     legend.margin      = margin(t = 0, b = 0),
-    panel.spacing      = unit(0.6, "lines"),
+    legend.position      = "bottom",
+    
+    legend.spacing.x     = unit(0.4, "cm"),   # horizontal spacing between items
+    
+    legend.spacing.y     = unit(0.2, "cm"),
+    
+    panel.spacing      = unit(1.2, "lines"),
     aspect.ratio       = 1,
     plot.margin        = margin(8, 8, 4, 8)
   )
@@ -341,6 +346,7 @@ fig2_combined <- cowplot::plot_grid(
   panel_b,
   ncol = 1,
   rel_heights = c(0.6, 0.4),
+  rel_widths = c(1.1, 1),
   labels = c("A", "B"),
   label_size = 15,
   label_fontface = "bold",
@@ -349,7 +355,7 @@ fig2_combined <- cowplot::plot_grid(
 )
 
 ggsave("outputs/figures/figure2_propensity_combined.pdf",
-       fig2_combined, width = 7, height = 8, dpi = 300, bg = "white")
+       fig2_combined, width = 8, height = 8, dpi = 300, bg = "white")
 ggsave("outputs/figures/figure2_propensity_combined.png",
        fig2_combined, width = 8, height = 8, dpi = 300, bg = "white")
 

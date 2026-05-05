@@ -24,7 +24,7 @@ packages <- c(
   "MatchIt",
   "cowplot",
   "gridExtra",
-  "ComplexHeatmap",
+  #"ComplexHeatmap",
   "grid"
 )
 
